@@ -38,7 +38,7 @@ num = 407
 num = int(input("Enter a number: "))
 
 if num == 1:
-  # print(f'{num} is not a prime number')
+  print(f'{num} is not a prime number')
 elif num > 1:
   # check for factors
   for i in range(2, num):
@@ -54,4 +54,4 @@ elif num > 1:
 # if input number is less than 
 # or equal to 1, it is not prime
 else:
-  # print(f'{num} is not a prime number')
+  print(f'{num} is not a prime number')
